@@ -3,9 +3,9 @@ Aplicación de Productos con Javascript Orientado a Objetos
 
 Curso realizado en: https://www.youtube.com/watch?v=nqre9kKFRpc
 
-Se han realizado pequeñas adaptaciones con Webpack para dividirlo en módulos y Babel, también .
+Se han realizado pequeñas adaptaciones con Webpack para dividirlo en módulos y Babel.
 
-Utiliza bootstrap https://bootswatch.com/4/litera/bootstrap.min.css
+Utiliza un custom bootstrap llamado litera en https://bootswatch.com/ 
 
 Es interesante para entender como interactuar con DOM y trabajar con POO en ES6
 
