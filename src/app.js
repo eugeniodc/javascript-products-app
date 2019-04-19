@@ -6,23 +6,22 @@ import { UI } from "./modules/claseUI";
 document.getElementById('product-form')
     .addEventListener('submit',
         (event) => {
-            const name= document.getElementById('name').value;
-            const price= document.getElementById('price').value;
-            const year= document.getElementById('year').value;
+            const name = document.getElementById('name').value;
+            const price = document.getElementById('price').value;
+            const year = document.getElementById('year').value;
 
-            const product = new Product(name,price,year);
+            const product = new Product(name, price, year);
 
-            const ui= new UI();
+            const ui = new UI();
 
             ui.addProduct(product);
 
             event.preventDefault();
         });
 
-document.getElementById('product-list').addEventListener('click', 
-(event)=>{
-    const ui = new UI();
-    ui.deleteProduct(event.target);
-    
-}
+document.getElementById('product-list').addEventListener('click',
+    (event) => {
+        const ui = new UI();
+        ui.deleteProduct(event.target);
+    }
 )

@@ -11,7 +11,7 @@
     "@babel/polyfill": "^7.4.3"
   },
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --watch",
     "build-babel": "babel src -d output"
   }
 }
